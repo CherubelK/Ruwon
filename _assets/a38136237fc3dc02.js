@@ -1,0 +1,11 @@
+(globalThis["webpackChunk_canva_web"] = globalThis["webpackChunk_canva_web"] || []).push([[27918],{
+
+/***/ 318009:
+function(_,__,__webpack_require__){__webpack_require__.n_x=__webpack_require__.n;const __web_req__=__webpack_require__;__web_req__(765703);__web_req__(144328);globalThis._5f74ec40302898c5a55451c9fbd04240=globalThis._5f74ec40302898c5a55451c9fbd04240||{};(function(__c){__c.Psd={Gk:__c.ww()(({Mv:{Kz:a}})=>({...__c.NR,metadata:{type:"demo-11",name:__c.sc("vAIjvQ",[11])},DU:["responsive"],C:{type:0,Lx:({C:b})=>{var c=a.classes.a5,d=a.classes.Zca,e=a.classes.$Y,f=__c.cAc.create({...__c.OHc,box:{top:50,left:50,width:50,height:50},Fu:[4],he:2,text:{...__c.Jn,stream:__c.Lj().nb("\n").build()},hd:void 0});Object.defineProperty(f,"text",{get:()=>b.mTb});var g=d.create({},{L:{Sa:a.list([()=>e.create({d:"M75 50 L100 100 L50 100 Z"},{L:{fill:c.create({},{attributes:{color:"#f5a623",
+qa:.2}})}})]),mc:a.list([f])},attributes:{top:50,left:50,width:50,height:50,viewBox:{top:50,left:50,width:50,height:50},Af:{...__c.VP,lU:!0}}});d={text:{...__c.Jn,stream:__c.Lj().attrs({color:"#ff5555","font-size":12}).nb("hi cell\n").build()},hd:void 0};d={...__c.yHc,content:d};var h=__c.QAc.create({...__c.wHc,id:"LBBBBBBBBBBBBBBH",layout:{...__c.Sub,columns:[{id:"A",width:50},{id:"B",width:50}],rows:[{height:1,minHeight:1,Bi:new Map([["A","A1"],["B","B1"]])}],cellPadding:2,borderStyle:{color:"#4df04a",
+weight:.5,ib:[]}},cells:new Map([["A1",d],["B1",d]]),top:15,left:10,width:80,height:18,K:280,P:63,locked:!0,Af:{...__c.VP,lU:!0}});Object.defineProperty(h.cells.get("A1").content,"text",{get:()=>b.etb});Object.defineProperty(h.cells.get("B1").content,"text",{get:()=>b.gtb});d={...__c.NHc,text:{...__c.Jn,stream:__c.Lj().attrs({color:"#281caf","font-size":3}).nb("ok ?\n").build()},width:16,height:14,position:.5};var k=__c.cP.create({...__c.MHc,start:{...__c.WP,position:{top:60,left:10}},end:{...__c.WP,
+marker:3,position:{top:60,left:50}},id:"LBBBBBBBBBBBBBJ",top:58,left:10,width:40,height:4,weight:2,color:"#00c4cc",mc:[d]});Object.defineProperty(k.mc.first(()=>!0),"text",{get:()=>b.lHb});return{Ta:a.list(()=>[g,h,k])}}}}))};
+}).call(globalThis,globalThis._5f74ec40302898c5a55451c9fbd04240);}
+
+}])
+//# sourceMappingURL=sourcemaps/a38136237fc3dc02.js.map
