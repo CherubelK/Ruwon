@@ -29,7 +29,8 @@ html, body {
   display: flex;
   justify-content: flex-end;
   gap: 0.35em;
-  padding: 12px 24px;
+  /* The Canva home page insets its menu ~7% of the viewport from the right. */
+  padding: 12px 6.7vw 12px 24px;
   font-size: 17.33px;
 }
 .site-nav a {
