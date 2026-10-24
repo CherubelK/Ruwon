@@ -1,0 +1,100 @@
+/* Shared styles for the hand-written placeholder pages (work.html, about.html).
+   Colors and type match the Canva-exported home page. */
+@font-face {
+  font-family: "DM Sans";
+  src: url("_assets/fonts/ce227117a9a4f3b60ded95174d6ebb58.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --bg: #acc17f;
+  --ink: #373d3b;
+  --card: rgba(255, 255, 255, 0.35);
+  --accent: #e98a3c;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "DM Sans", system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.35em;
+  padding: 12px 24px;
+  font-size: 17.33px;
+}
+.site-nav a {
+  color: var(--ink);
+  text-decoration: none;
+}
+.site-nav a:hover,
+.site-nav a[aria-current="page"] { text-decoration: underline; }
+.site-nav .sep { opacity: 0.8; }
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 32px 16px 80px;
+}
+
+h1 {
+  font-size: clamp(2rem, 6vw, 3rem);
+  font-weight: 700;
+  margin: 0 0 32px;
+}
+
+/* Work history */
+.jobs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 20px;
+}
+.job {
+  background: var(--card);
+  border-left: 4px solid var(--accent);
+  border-radius: 6px;
+  padding: 20px 24px;
+}
+.job h2 { margin: 0; font-size: 1.25rem; }
+.job .meta { margin: 4px 0 12px; font-size: 0.95rem; opacity: 0.8; }
+.job p { margin: 0; }
+.job img {
+  display: block;
+  width: min(100%, 360px);
+  height: auto;
+  margin-top: 16px;
+  border-radius: 4px;
+}
+
+/* About */
+.about {
+  display: grid;
+  gap: 32px;
+  justify-items: center;
+  text-align: center;
+}
+.about img {
+  width: min(100%, 420px);
+  height: auto;
+  display: block;
+}
+.contact {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+  font-size: 1.1rem;
+}
+.contact a { color: var(--ink); }
